@@ -45,6 +45,7 @@ application:
       - 未做实机验证。
 services:
   webserver:
+    # upstream: paperlessngx/paperless-ngx:3.4.2
     image: docker.1ms.run/paperlessngx/paperless-ngx:3.4.2
     depends_on:
       - db
