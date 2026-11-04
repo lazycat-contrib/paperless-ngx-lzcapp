@@ -1,0 +1,12 @@
+params:
+  - id: admin_password
+    type: secret
+    name: Admin password
+    description: "Password for the auto-created administrator login (user: admin), at least 12 characters."
+    default_value: "$random(len=20)"
+    optional: false
+locales:
+  zh:
+    admin_password:
+      name: 管理员密码
+      description: 首次启动自动创建的管理员账号（用户名 admin）的密码，至少 12 位。默认随机生成，不存在内置弱口令。

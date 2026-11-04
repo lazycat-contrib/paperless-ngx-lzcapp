@@ -1,0 +1,18 @@
+package: community.lazycat.app.paperless-ngx
+name: Paperless-ngx
+description: "Scan, index and archive all your physical documents: OCR, full-text search, tags and correspondents."
+version: 3.4.2
+min_os_version: "1.5.0"
+homepage: https://docs.paperless-ngx.com/
+author: paperless-ngx contributors
+license: GPL-3.0
+permissions:
+  required:
+    - net.internet
+locales:
+  zh:
+    name: Paperless-ngx
+    description: "把纸质文档扫描归档：OCR 识别、全文搜索、标签与往来人管理。"
+  en:
+    name: Paperless-ngx
+    description: "Scan, index and archive all your physical documents: OCR, full-text search, tags and correspondents."
